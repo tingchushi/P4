@@ -1,8 +1,6 @@
 import React, { Fragment, useState, useEffect } from "react";
 import EditTodo from "./EditTodo";
-import { ProgressBar } from "react-bootstrap";
-import Percentage from "./Percentagebar";
-import EditProject from "./EditProject";
+
 
 const ProjectTodos = ({pid, piid}) => {
   const [todos, setTodos] = useState([]);

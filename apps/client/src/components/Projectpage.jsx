@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Card, Container, Row, Col } from 'react-bootstrap';
 import InputProject from './InputProject';
-import { ImCross } from 'react-icons/im';
-import "bootstrap/dist/css/bootstrap.css";
 import ProjectTodos from './Projectitem';
 import InputTodo from './InputTodo';
 import EditProject from './EditProject';
@@ -74,7 +72,7 @@ function Projectpage() {
         
                   <Card>
                     <Card.Header style={{backgroundColor:'#007BD7', color:'white'}}>{data.title} </Card.Header>
-                    <ImCross style={{position:"absolute", top:"15px", right:"15px"}} onClick={() => deleteProject(data.id)}/>
+                    <div style={{position:"absolute", top:"15px", right:"15px"}} onClick={() => deleteProject(data.id)}>X</div>
                     <Card.Body>
                         <Card.Text>
                             <div key={data.id}>

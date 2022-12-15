@@ -5,8 +5,7 @@ import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import PasswordStrengthBar from 'react-password-strength-bar';
 import "react-datepicker/dist/react-datepicker.css";
-import 'react-toastify/dist/ReactToastify.css';
-import { useToasts } from "react-toast-notifications";
+
 
 
 function Registration () {

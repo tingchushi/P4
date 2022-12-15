@@ -1,6 +1,5 @@
 import React, { Fragment, useState, useEffect } from "react";
 import { MDBContainer, MDBInput, MDBCheckbox, MDBBtn,MDBIcon, MDBRow, MDBCol} from 'mdb-react-ui-kit';
-import { setTwoToneColor } from "@ant-design/icons";
 
 
 const EditProject = ({pid}) => {
