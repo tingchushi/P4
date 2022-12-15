@@ -1,25 +1,23 @@
 {
-  "name": "group-buy",
+  "name": "project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "turbo run test",
     "dev": "turbo run dev",
     "build": "turbo run build",
-    "start": "cd apps/server && node server.js"
+    "start": "cd apps/server && npm run start"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tingchushi/P4.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tingchushi/P4/issues"
   },
-  "homepage": "https://github.com/tingchushi/P4#readme",
+  "homepage": "https://github.com/berwyntan/group-buy#readme",
   "devDependencies": {
     "turbo": "^1.6.3"
   },
