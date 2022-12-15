@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/berwyntan/group-buy.git"
+    "url": "git+https://github.com/tingchushi/P4.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/berwyntan/group-buy/issues"
+    "url": "https://github.com/tingchushi/P4/issues"
   },
-  "homepage": "https://github.com/berwyntan/group-buy#readme",
+  "homepage": "https://github.com/tingchushi/P4#readme",
   "devDependencies": {
     "turbo": "^1.6.3"
   },
